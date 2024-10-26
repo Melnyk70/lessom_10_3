@@ -1,16 +1,13 @@
-# This is a sample Python script.
+# ДЗ 10.3. Перевірити чи є парним чи ні
+# Ваша функція is_even повинна повертати True якщо число парне, і False якщо число непарне.
+# Вхідні дані: Ціле число.
+# Вихідні дані: Логічний тип.
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+def is_even(digit):
+    """ Перевірка чи є парним число """
+    pass
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+assert is_even(2) == True, 'Test1'
+assert is_even(5) == False, 'Test2'
+assert is_even(0) == True, 'Test3'
+print('OK')
